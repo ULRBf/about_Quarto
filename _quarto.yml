@@ -3,8 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "Ulrb"
+  title: "Ulrb_test"
   navbar:
+    title : "Second"
     background : primary
     search : true
     left:
