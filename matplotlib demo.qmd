@@ -6,14 +6,14 @@ date: 2024-04-10
 
 format:
   html:
-    code-fold: true
+    code-fold: false
 jupyter: python3
 ---
 
-For a demonstration of a line plot on a polar axis, see @fig-polar.
+For a demonstration of a line plot on a polar axis, see @fig-test_polar.
 
 ```{python}
-#| label: fig-polar
+#| label: fig-test_polar
 #| fig-cap: "A line plot on a polar axis"
 
 import numpy as np
