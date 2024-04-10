@@ -6,6 +6,7 @@ website:
   title: "Ulrb_test"
   search: true
   navbar:
+    background: dark
     # title : "Second"
     background : primary
     search : true
