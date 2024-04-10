@@ -2,7 +2,7 @@
 title: "Me"
 author: jhs
 image: "./not_image.png"
-date: 2020-01-01
+date: 2024-04-10
 
 about:
   template: jolla
@@ -13,8 +13,8 @@ about:
       href: https://github.com/ULRBf
 ---
 
-소개요...소개
+소개 내용
 
-## 부제목1
+## 부제목 작성 예정
 
-세부내용
+세부내용 작성 예정

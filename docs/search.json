@@ -11,21 +11,21 @@
     "href": "Me.html",
     "title": "Me",
     "section": "",
-    "text": "소개요…소개"
+    "text": "소개 내용"
   },
   {
-    "objectID": "Me.html#부제목1",
-    "href": "Me.html#부제목1",
+    "objectID": "Me.html#부제목-작성-예정",
+    "href": "Me.html#부제목-작성-예정",
     "title": "Me",
-    "section": "부제목1",
-    "text": "부제목1\n세부내용"
+    "section": "부제목 작성 예정",
+    "text": "부제목 작성 예정\n세부내용 작성 예정"
   },
   {
     "objectID": "Task.html",
     "href": "Task.html",
     "title": "Task",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nWednesday, January 1, 2020\n\n\nMe\n\n\njhs \n\n\n1 min\n\n\n\n\n\n\n\nWednesday, April 10, 2024\n\n\nQuarto Basics\n\n\njhs \n\n\n1 min\n\n\n\n\n\nNo matching items"
+    "text": "Me\n\n\n\n\n\n\n\n\n\n\n\nWednesday, April 10, 2024\n\n\njhs\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Basics\n\n\n\n\n\n\n\n\n\n\n\nWednesday, April 10, 2024\n\n\njhs\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "matplotlib demo.html",

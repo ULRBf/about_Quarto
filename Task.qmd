@@ -1,10 +1,12 @@
 ---
 title: "Task"
 listing: 
-    type: table
+    type: default
     date-format: full
     categories: true
-    fields: [image, date, title, author, reading-time]
+    # fields: [image, date, title, author, reading-time]
+    sort:
+        - "date"
     contents:
         - Me.qmd
         - matplotlib demo.qmd
