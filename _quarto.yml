@@ -5,7 +5,8 @@ project:
 website:
   title: "Ulrb_test"
   navbar:
-    background: dark
+    background: "dark"
+    foreground: "light"
     # title : "Second"
     # background : primary
     search : true
