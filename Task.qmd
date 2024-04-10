@@ -10,7 +10,7 @@ listing:
     contents:
         - Me.qmd
         - matplotlib demo.qmd
-        - compuations.qmd
+        - computations.qmd
         # - about.qmd
     # 기본 정렬 설정 할 것.
 ---
