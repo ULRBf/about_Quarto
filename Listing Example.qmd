@@ -8,5 +8,6 @@ listing:
     contents:
         - Finley Malloc.qmd
         - about.qmd
+        - matplotlib demo.qmd
     
 ---

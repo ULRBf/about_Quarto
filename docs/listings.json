@@ -3,7 +3,8 @@
     "listing": "/Listing Example.html",
     "items": [
       "/about.html",
-      "/Finley Malloc.html"
+      "/Finley Malloc.html",
+      "/matplotlib demo.html"
     ]
   }
 ]
