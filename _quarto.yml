@@ -4,8 +4,9 @@ project:
 
 website:
   title: "Ulrb_test"
+  search: true
   navbar:
-    title : "Second"
+    # title : "Second"
     background : primary
     search : true
     left:
