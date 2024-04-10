@@ -1,7 +1,7 @@
 ---
 title: "Task"
 listing: 
-    type: table
+    type: grid
     date-format: full
     categories: true
     # fields: [image, date, title, author, reading-time]
