@@ -1,13 +1,13 @@
 ---
-title: "Listing Example"
+title: "Task"
 listing: 
     type: table
     date-format: full
     categories: true
     fields: [image, date, title, author, reading-time]
     contents:
-        - Finley Malloc.qmd
-        - about.qmd
+        - Me.qmd
         - matplotlib demo.qmd
-    
+        # - about.qmd
+    # 기본 정렬 설정 할 것.
 ---

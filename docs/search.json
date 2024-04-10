@@ -1,38 +1,31 @@
 [
   {
-    "objectID": "Finley Malloc.html",
-    "href": "Finley Malloc.html",
-    "title": "Finley Malloc",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
+    "text": "About this site\nhow to do ML and RL 을 해봅니다. 테스팅\n추가 테스트"
   },
   {
-    "objectID": "Finley Malloc.html#education",
-    "href": "Finley Malloc.html#education",
-    "title": "Finley Malloc",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "Finley Malloc.html#experience",
-    "href": "Finley Malloc.html#experience",
-    "title": "Finley Malloc",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ulrb",
+    "objectID": "Me.html",
+    "href": "Me.html",
+    "title": "Me",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "소개요…소개"
   },
   {
-    "objectID": "Listing Example.html",
-    "href": "Listing Example.html",
-    "title": "Listing Example",
+    "objectID": "Me.html#부제목1",
+    "href": "Me.html#부제목1",
+    "title": "Me",
+    "section": "부제목1",
+    "text": "부제목1\n세부내용"
+  },
+  {
+    "objectID": "Task.html",
+    "href": "Task.html",
+    "title": "Task",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nWednesday, January 1, 2020\n\n\nAbout\n\n\njhs \n\n\n1 min\n\n\n\n\n\n\n\n \n\n\nFinley Malloc\n\n\n \n\n\n1 min\n\n\n\n\n\n\n\nWednesday, April 10, 2024\n\n\nQuarto Basics\n\n\njhs \n\n\n1 min\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nWednesday, January 1, 2020\n\n\nMe\n\n\njhs \n\n\n1 min\n\n\n\n\n\n\n\nWednesday, April 10, 2024\n\n\nQuarto Basics\n\n\njhs \n\n\n1 min\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "matplotlib demo.html",
@@ -42,10 +35,10 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "기본 페이지 입니다.",
     "section": "",
-    "text": "About this site\nhow to do ML and RL 을 해봅니다. 테스팅\n추가 테스트"
+    "text": "아직 내용이 없습니다."
   }
 ]

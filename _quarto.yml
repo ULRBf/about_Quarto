@@ -3,20 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Ulrb_test"
+  title: "ULRBf"
   navbar:
     background: "dark"
     foreground: "light"
-    # title : "Second"
-    # background : primary
     search : true
     left:
-      # - href: index.qmd
-      - text: "Home"
-        file : index.qmd
-      - Listing Example.qmd
-      # - about.qmd
-      - Finley Malloc.qmd
+      - Me.qmd
+      - Task.qmd
 
 format:
   html:

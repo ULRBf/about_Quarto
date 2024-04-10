@@ -1,7 +1,5 @@
 ---
-title: "Ulrb"
+title: "기본 페이지 입니다."
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+아직 내용이 없습니다.
