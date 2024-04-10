@@ -1,7 +1,7 @@
 ---
 title: "Task"
 listing: 
-    type: default
+    type: table
     date-format: full
     categories: true
     # fields: [image, date, title, author, reading-time]
