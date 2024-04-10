@@ -1,5 +1,5 @@
 ---
-title: "Quarto Tutorial : Compuations"
+title: "Quarto Tutorial : Computations"
 author: jhs
 
 date: 2024-04-10

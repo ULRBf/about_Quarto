@@ -25,7 +25,7 @@
     "href": "Task.html",
     "title": "Task",
     "section": "",
-    "text": "Me\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Tutorial : Hello, Quarto\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Tutorial : Compuations\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Me\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Tutorial : Hello, Quarto\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Tutorial : Computations\n\n\n\n\n\n\njhs\n\n\nWednesday, April 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "matplotlib demo.html",
@@ -44,35 +44,35 @@
   {
     "objectID": "computations.html",
     "href": "computations.html",
-    "title": "Quarto Tutorial : Compuations",
+    "title": "Quarto Tutorial : Computations",
     "section": "",
     "text": "Code\nimport numpy as np\na = np.arange(15).reshape(3, 5)\na\n\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])"
   },
   {
     "objectID": "computations.html#numpy",
     "href": "computations.html#numpy",
-    "title": "Quarto Tutorial : Compuations",
+    "title": "Quarto Tutorial : Computations",
     "section": "",
     "text": "Code\nimport numpy as np\na = np.arange(15).reshape(3, 5)\na\n\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])"
   },
   {
     "objectID": "computations.html#matplotlib",
     "href": "computations.html#matplotlib",
-    "title": "Quarto Tutorial : Compuations",
+    "title": "Quarto Tutorial : Computations",
     "section": "Matplotlib",
     "text": "Matplotlib\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nfig.set_size_inches(12, 7)  # 종횡비 조절\n\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\n\nplt.legend(loc='lower right')\nplt.show()  # plt.show(fig)"
   },
   {
     "objectID": "computations.html#plotly",
     "href": "computations.html#plotly",
-    "title": "Quarto Tutorial : Compuations",
+    "title": "Quarto Tutorial : Computations",
     "section": "Plotly",
     "text": "Plotly\n\n\nCode\nimport plotly.express as px\nimport plotly.io as pio\ngapminder = px.data.gapminder()\ngapminder2007 = gapminder.query(\"year == 2007\")\nfig = px.scatter(gapminder2007, \n                 x=\"gdpPercap\", y=\"lifeExp\", color=\"continent\", \n                 size=\"pop\", size_max=60,\n                 hover_name=\"country\")\nfig.show()"
   },
   {
     "objectID": "computations.html#other-plotly",
     "href": "computations.html#other-plotly",
-    "title": "Quarto Tutorial : Compuations",
+    "title": "Quarto Tutorial : Computations",
     "section": "Other Plotly",
     "text": "Other Plotly\n\n\nCode\n\"\"\"\nQuarto Option\n\n#| label: fig-gapminder\n#| fig-cap: \"Life Expectancy and GDP\"\n#| fig-subcap:\n#|   - \"Gapminder: 1957\"\n#|   - \"Gapminder: 2007\"\n#|   - \"Gapminder: 2007\"\n#| column: screen-inset-shaded\n#| layout-nrow: 1\n\"\"\"\n\nimport plotly.express as px\nimport plotly.io as pio\ngapminder = px.data.gapminder()\ndef gapminder_plot(year):\n    gapminderYear = gapminder.query(\"year == \" + \n                                    str(year))\n    fig = px.scatter(gapminderYear, \n                     x=\"gdpPercap\", y=\"lifeExp\",\n                     size=\"pop\", size_max=60,\n                     hover_name=\"country\")\n    fig.show()\n    \ngapminder_plot(1957)\ngapminder_plot(2007)\ngapminder_plot(2007)\n\n\n\n\n\n\n\n\n\n                                                \n\n\n(a) Gapminder: 1957\n\n\n\n\n\n\n\n\n                                                \n\n\n(b) Gapminder: 2007\n\n\n\n\n\n\n\n\n                                                \n\n\n(c) Gapminder: 2007\n\n\n\n\n\n\n\nFigure 1: Life Expectancy and GDP"
   }
