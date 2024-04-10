@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Finley Malloc.html",
+    "href": "Finley Malloc.html",
+    "title": "Finley Malloc",
     "section": "",
-    "text": "About this site how to do ML and RL 을 해봅니다. 테스팅 추가 테스트"
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
   },
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "임의로 만듦"
+    "objectID": "Finley Malloc.html#education",
+    "href": "Finley Malloc.html#education",
+    "title": "Finley Malloc",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "Finley Malloc.html#experience",
+    "href": "Finley Malloc.html#experience",
+    "title": "Finley Malloc",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
   },
   {
     "objectID": "index.html",
@@ -19,5 +26,19 @@
     "title": "Ulrb",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Listing Example.html",
+    "href": "Listing Example.html",
+    "title": "Listing Example",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nWednesday, January 1, 2020\n\n\nAbout\n\n\njhs \n\n\n1 min\n\n\n\n\n\n\n\n \n\n\nFinley Malloc\n\n\n \n\n\n1 min\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\nhow to do ML and RL 을 해봅니다. 테스팅\n추가 테스트"
   }
 ]

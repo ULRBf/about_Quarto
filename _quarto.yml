@@ -14,8 +14,9 @@ website:
       # - href: index.qmd
       - text: "Home"
         file : index.qmd
-      - talks.qmd
-      - about.qmd
+      - Listing Example.qmd
+      # - about.qmd
+      - Finley Malloc.qmd
 
 format:
   html:

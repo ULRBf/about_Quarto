@@ -1,0 +1,12 @@
+---
+title: "Listing Example"
+listing: 
+    type: table
+    date-format: full
+    categories: true
+    fields: [image, date, title, author, reading-time]
+    contents:
+        - Finley Malloc.qmd
+        - about.qmd
+    
+---

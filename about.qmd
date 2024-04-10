@@ -1,7 +1,10 @@
 ---
 title: "About"
+author: jhs
+image: "./test.png"
+date: 2020-01-01
 ---
 
-About this site
-how to do ML and RL  을 해봅니다. 테스팅
+About this site     
+how to do ML and RL  을 해봅니다. 테스팅    
 추가 테스트  
