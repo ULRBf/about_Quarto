@@ -4,7 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site how to do ML and RL 을 해봅니다. 테스팅 추가 테스트"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "임의로 만듦"
   },
   {
     "objectID": "index.html",
