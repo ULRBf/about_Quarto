@@ -4,11 +4,10 @@ project:
 
 website:
   title: "Ulrb_test"
-  search: true
   navbar:
     background: dark
     # title : "Second"
-    background : primary
+    # background : primary
     search : true
     left:
       # - href: index.qmd
