@@ -4,9 +4,13 @@ author: jhs
 
 date: 2024-04-10
 
+execute: 
+  echo: true  # false로 하면 코드는 안보이게 됨.
+
 format:
   html:
-    code-fold: false
+    code-fold: true
+    code-tools: true
 
 jupyter: python3 
 ---
@@ -26,6 +30,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
+fig.set_size_inches(12, 7)  # 종횡비 조절
+
 x = np.arange(10)
 y = 2.5 * np.sin(x / 20 * np.pi)
 yerr = np.linspace(0.05, 0.2, 10)
@@ -56,4 +62,47 @@ fig = px.scatter(gapminder2007,
                  size="pop", size_max=60,
                  hover_name="country")
 fig.show()
+```
+
+
+## Other Plotly
+
+```{python}
+#| label: fig-gapminder
+#| fig-cap: "Life Expectancy and GDP"
+#| fig-subcap:
+#|   - "Gapminder: 1957"
+#|   - "Gapminder: 2007"
+#|   - "Gapminder: 2007"
+#| column: screen-inset-shaded
+#| layout-nrow: 1
+
+"""
+Quarto Option
+
+#| label: fig-gapminder
+#| fig-cap: "Life Expectancy and GDP"
+#| fig-subcap:
+#|   - "Gapminder: 1957"
+#|   - "Gapminder: 2007"
+#|   - "Gapminder: 2007"
+#| column: screen-inset-shaded
+#| layout-nrow: 1
+"""
+
+import plotly.express as px
+import plotly.io as pio
+gapminder = px.data.gapminder()
+def gapminder_plot(year):
+    gapminderYear = gapminder.query("year == " + 
+                                    str(year))
+    fig = px.scatter(gapminderYear, 
+                     x="gdpPercap", y="lifeExp",
+                     size="pop", size_max=60,
+                     hover_name="country")
+    fig.show()
+    
+gapminder_plot(1957)
+gapminder_plot(2007)
+gapminder_plot(2007)
 ```
