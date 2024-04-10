@@ -3,3 +3,4 @@ title: "About"
 ---
 
 About this site
+how to do ML and RL  을 해봅니다. 테스팅
